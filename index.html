@@ -311,9 +311,9 @@ FAA. (2023). Drone safety regulations. Federal Aviation Administration.
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
     const AnalysisanddiscussionCount = displayWordCount("Analysisanddisscusion_InText");
-   const ConclusionCount = displayWordCount("Conclusion_InText");
+   
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AnalysisanddisscutionCount + ConclusionCount;
+    const totalWordCount = IntroductionCount + AnalysisanddisscutionCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
